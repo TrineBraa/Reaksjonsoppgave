@@ -1,0 +1,53 @@
+*{
+    background-color: burlywood;
+}
+
+#lightContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lights{
+    background-color: lightblue;
+    border: solid gray 1px;
+    border-radius: 50%;
+    height: 14vw;
+    width: 14vw;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.lightOn{
+    background-color: yellow;
+    
+}
+
+/* .lights:hover{
+    border: 2px solid red;
+} */
+
+.lights:active{
+    transform: scale(0.9);
+}
+
+#statContainer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#clicks>span{
+    font-size: 32px;
+    color: azure;
+}
+
+#clicks{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#timeContainer{
+    font-size: 25px;
+}
